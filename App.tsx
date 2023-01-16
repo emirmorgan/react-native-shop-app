@@ -4,6 +4,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 //Screens
 import HomeScreen from './src/screens/HomeScreen';
+import TrendingScreen from './src/screens/TrendingScreen';
 
 function App(): JSX.Element {
   const Stack = createNativeStackNavigator();
@@ -14,6 +15,7 @@ function App(): JSX.Element {
           headerShown: false,
         }}>
         <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Trending" component={TrendingScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
