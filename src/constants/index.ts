@@ -58,3 +58,30 @@ export const trendingItems = [
     src: require('../assets/card-3.jpg'),
   },
 ];
+
+export const categories = [
+  {
+    src: require('../assets/woman.png'),
+    label: 'Woman',
+  },
+  {
+    src: require('../assets/man.png'),
+    label: 'Man',
+  },
+  {
+    src: require('../assets/kids.png'),
+    label: 'Kids',
+  },
+  {
+    src: require('../assets/accessories.png'),
+    label: 'Accessories',
+  },
+  {
+    src: require('../assets/watches.png'),
+    label: 'Watches',
+  },
+  {
+    src: require('../assets/dresses.png'),
+    label: 'Dresses',
+  },
+];
