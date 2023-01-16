@@ -1,6 +1,7 @@
 ### Technologies
 + React Native
 + React Navigation
++ Typescript
 
 ### Previews
 <img width=350 height=700 src="https://github.com/emirmorgan/react-native-shop-app/blob/master/screenshots/ss-1.png?raw=true" />
