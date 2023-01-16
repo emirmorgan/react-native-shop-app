@@ -7,6 +7,7 @@ const screen = dimensions.height;
 
 //Components
 import Carousel from '../components/Carousel';
+import Trending from '../components/Trending';
 
 const HomeScreen: FC = () => {
   return (
@@ -14,6 +15,7 @@ const HomeScreen: FC = () => {
       <ScrollView contentInsetAdjustmentBehavior="never">
         <View style={styles.container}>
           <Carousel />
+          <Trending />
         </View>
       </ScrollView>
     </SafeAreaView>
