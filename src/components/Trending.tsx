@@ -29,6 +29,7 @@ const Trending: FC<TrendingProps> = ({onScreen}) => {
       <View style={onScreen ? {display: 'none'} : styles.textContainer}>
         <Text style={styles.textHeadtitle}>Trending</Text>
         <Text
+          testID="trending-nav"
           style={styles.textSubtitle}
           onPress={() => navigation.navigate('Trending')}>
           Show all

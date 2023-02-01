@@ -20,6 +20,7 @@ const Categories: FC<CategoriesProps> = ({onScreen}) => {
       <View style={onScreen ? {display: 'none'} : styles.textContainer}>
         <Text style={styles.textHeadtitle}>Categories</Text>
         <Text
+          testID="categories-nav"
           style={styles.textSubtitle}
           onPress={() => navigation.navigate('Categories')}>
           Show all
