@@ -16,8 +16,8 @@ const imageWidth = dimensions.width;
 const imageHeight = 500;
 
 interface CardProps {
-  label: string;        // This is the label
-  price: string;        // This is the price
+  label: string;
+  price: string;
   src: any;
 }
 
